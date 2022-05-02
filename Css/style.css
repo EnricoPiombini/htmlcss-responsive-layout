@@ -1,0 +1,73 @@
+/* Breakpoints
+576px
+768px
+992px */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+
+}
+
+.card{
+    min-height: 300px;
+    background-color: #492AA0;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 1px dashed red;
+}
+
+/* container più stretto:container padding large in questo caso maggiore di 1rem */
+
+
+.section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+:root {
+    --color-primary: #B4D0E7;
+    --color-secondary: #492AA0;
+}
+
+.bg-primary {
+    background-color: var(--color-primary);
+
+}
+
+.bg-secondary {
+    background-color: var(--color-secondary);
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    flex-grow: 1;
+}
+
+.col-1{
+    flex-basis: calc(100% / 3);
+}
+
+.col-2{
+    flex-basis: calc(100% / 3 * 2);
+}
+
+.col-3{
+    flex-basis: 100%;
+}
