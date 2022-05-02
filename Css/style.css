@@ -10,23 +10,48 @@
     box-sizing: border-box;
 }
 
-.navbar{
-    display: flex;
-
-}
-
-.card{
-    min-height: 300px;
-    background-color: #492AA0;
-}
-
 .container {
     width: 980px;
     margin: 0 auto;
     padding-left: 1rem;
     padding-right: 1rem;
-    border: 1px dashed red;
+    
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0093CE;
+
+}
+
+.link {
+    margin: 1rem;
+    color: white;
+}
+
+.btn {
+    border-radius: 1rem;
+    padding: .5rem;
+
+}
+
+.btn-white {
+    background-color: white;
+}
+
+.btn-blue {
+    background-color: #0093CE;
+    color: white;
+}
+
+.btn-violet{
+    background-color: #9362BE;
+    color: white;
+}
+
+
 
 /* container più stretto:container padding large in questo caso maggiore di 1rem */
 
@@ -39,7 +64,7 @@
 
 :root {
     --color-primary: #B4D0E7;
-    --color-secondary: #492AA0;
+    --color-secondary: #ae83d3;
 }
 
 .bg-primary {
@@ -51,23 +76,40 @@
     background-color: var(--color-secondary);
 }
 
-.row{
+
+.row {
     display: flex;
     flex-wrap: wrap;
 }
 
-.col{
+.col {
     flex-grow: 1;
 }
 
-.col-1{
+.col-1 {
     flex-basis: calc(100% / 3);
 }
 
-.col-2{
+.col-2 {
     flex-basis: calc(100% / 3 * 2);
 }
 
-.col-3{
+.col-3 {
     flex-basis: 100%;
+}
+
+.col-4{
+    flex-basis:50%;
+}
+
+.card-flex{
+    display: flex;
+}
+
+.w-100{
+    width: 100%;
+
+}
+.text-center{
+    text-align: center;
 }
